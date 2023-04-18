@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg_site.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    background-color: aqua;
+}
+.dotes{
+    display: flex;
+    gap: 7px;
+    margin-top: 18px;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    background-color:grey;
+    border-radius: 50%;
+}
+.bgHeader__link .dotes{
+    gap: 11px;
+    margin-top: 0;
+}
+.bgHeader__link .dot{
+    width: 10px;
+    height: 10px;
+}
+.bgHeader{
+    position: sticky;
+    top: 0;
+}
+.bgHeader__links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    gap: 35px;
+}
+.bgHeader__item{
+    list-style: none;
+    padding: 15px;
+}
+.bgHeader__link{
+    text-decoration: none;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(35, 35, 74);
+    font-size: 25px;
+}
+
+.sayt{
+    /* max-width: 1520px; */
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    resize: horizontal;
+    background-color: #fff;
+    height: auto;
+    overflow-x: scroll;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.header__logo{
+    height: 50px;
+}
+.header__rightHolder{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__links{
+    display: flex;
+    gap: 25px;
+}
+.header__links-item{
+    list-style: none;
+    padding: 15px;
+}
+.header__link{
+    color: rgb(174, 168, 168);
+    font-size: 14px;
+    padding: 6px;
+}
+.header__link:hover{
+    border-bottom: 1px solid rgb(97, 96, 96);
+    color: rgb(97, 96, 96);
+}
+.header__input{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    padding-bottom: 6px;
+}
+.header__input::placeholder{
+    color: rgb(174, 168, 168);
+}
+.hero{
+    max-width: 1530px;
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    background-image: url("../images/watches.jpg");
+    background-size: 550px 440px;
+    background-repeat: no-repeat;
+    background-position: 120% bottom;
+    height: 440px;
+    border-bottom: 1px solid rgb(218, 217, 217);
+}
+.repeater__heading{
+    font-size: 38px;
+}
+.repeater__infos{
+    margin-top: 45px;
+    color: rgb(157, 156, 156);
+    border-left: 2px solid rgba(124, 123, 123, 0.7);
+    font-size: 15px;
+    line-height: 24px;
+    padding-left: 25px;
+}
+.btn{
+    margin-top: 30px;
+    padding: 8px 10px;
+    background-color: rgba(240, 53, 53, 0.7);
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+}
+.section__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.section__card{
+    width: 27%;
+}
+.section__card-heading{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.section__card-paragraph{
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(157, 156, 156);
+}
+
+.learn-more{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    color: rgba(240, 53, 53, 0.7);
+    font-size: 9px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.learn-more:hover .red-line{
+    width: 42px;
+}
+.red-line{
+    width: 25px;
+    height: 3px;
+    background-color: rgba(240, 53, 53, 0.7);
+}
+.section__content{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section__content-image{
+    height: 520px;
+}
+.footer{
+    max-width: 1530px;
+    width: 100%;
+    margin: auto;
+    margin-top: 35px;
+    background-image: url("../images/runners.jpg");
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.footer .container{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #fff;
+    padding: 120px 0;
+}
+.footer__paragraph{
+    color: #fff;
+    border-left: 3px solid #fff;
+}
